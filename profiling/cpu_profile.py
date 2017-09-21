@@ -3,7 +3,7 @@ import yappi
   
 def invert_numpy(image): 
 	img=image.copy()
-	img=image[:,:]
+	img=255-image[:,:]
 
 	 
 	return img
