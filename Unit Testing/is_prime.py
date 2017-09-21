@@ -1,10 +1,43 @@
 def is_prime(number):
     """Return True if *number* is prime."""
     for element in range(number):
-        if number % element == 0: # divide by zero error
+        if number % element == 0: 
             return False
 
     return True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def is_prime_correct(number):
     """Return True if *number* is prime."""
