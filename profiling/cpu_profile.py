@@ -19,9 +19,9 @@ def naive(image):
 			
 def display(orig,invert):
     cv2.namedWindow('image',cv2.WINDOW_NORMAL)
-    cv2.resizeWindow('image',400,400)
+    cv2.resizeWindow('image',600,600)
     cv2.namedWindow('image0',cv2.WINDOW_NORMAL)
-    cv2.resizeWindow('image0',400,400)
+    cv2.resizeWindow('image0',600,600)
     cv2.imshow('image0',orig)
     cv2.waitKey(0)
     cv2.imshow('image',invert)
